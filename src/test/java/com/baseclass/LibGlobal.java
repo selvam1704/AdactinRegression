@@ -16,35 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LibGlobal {
 	public static WebDriver dr;
 
-	public static String getData(String colName) throws SQLException {
-		Connection con=null;
-		String text = null;
-		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","hr","123456789");
-			String sql="Select *from customer ";
-			PreparedStatement ps = con.prepareStatement(sql);
-			ResultSet rs = ps.executeQuery();
-			while(rs.next())
-			{
-				 text = rs.getString(colName);
-				
-			}
-			
-		}
-		catch(ClassNotFoundException | SQLException  e){
-			e.printStackTrace();
-			
-		}
-		finally {
-			con.close();
-			
-		}
-		return text;
-		
-
-	}
-	public static void launchBrowser() {
+		public static void launchBrowser() {
 		WebDriverManager.chromedriver().setup();
 		dr = new ChromeDriver();
 		dr.manage().window().maximize();
