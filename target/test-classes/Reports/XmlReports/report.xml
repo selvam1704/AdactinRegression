@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.378364">
+<testcase classname="verifying adactin site" name="user should enters the valid credentials" time="32.378364">
+<system-out><![CDATA[Given user should give username and password................................passed
+When user should click login button.........................................passed
+Then user should verfiy the Credentials.....................................passed
+When user should select the location hotel and Roomtype in Search page......passed
+And user should select the no of rooms and no of adults and no of child.....passed
+And User should click Search button.........................................passed
+When user should select the hotel in select hotel page......................passed
+And user should click continue button.......................................passed
+When user Should give First name lastname and address and cc num............passed
+When user should select cc type and exp date month..........................passed
+And User Should enter cvv num and click book now button.....................passed
+Then User Should get the order no...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

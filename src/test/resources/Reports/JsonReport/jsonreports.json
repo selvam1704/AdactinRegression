@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-10T01:13:33.927Z",
+        "line": 3,
+        "name": "user should enters the valid credentials",
+        "description": "",
+        "id": "verifying-adactin-site;user-should-enters-the-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11252927862,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should give username and password",
+            "match": {
+              "location": "AdactinStepDef.user_should_give_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6553011118,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should click login button",
+            "match": {
+              "location": "AdactinStepDef.user_should_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12635386,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should verfiy the Credentials",
+            "match": {
+              "location": "AdactinStepDef.user_should_verfiy_the_Credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 409752174,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select the location hotel and Roomtype in Search page",
+            "match": {
+              "location": "AdactinStepDef.user_should_select_the_location_hotel_and_Roomtype_in_Search_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313832131,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should select the no of rooms and no of adults and no of child",
+            "match": {
+              "location": "AdactinStepDef.user_should_select_the_no_of_rooms_and_no_of_adults_and_no_of_child()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1768008277,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click Search button",
+            "match": {
+              "location": "AdactinStepDef.user_should_click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78273018,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should select the hotel in select hotel page",
+            "match": {
+              "location": "AdactinStepDef.user_should_select_the_hotel_in_select_hotel_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1578330222,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click continue button",
+            "match": {
+              "location": "AdactinStepDef.user_should_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441038576,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Should give First name lastname and address and cc num",
+            "match": {
+              "location": "AdactinStepDef.user_Should_give_First_name_lastname_and_address_and_cc_num()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491961857,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should select cc type and exp date month",
+            "match": {
+              "location": "AdactinStepDef.user_should_select_cc_type_and_exp_date_month()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8194434826,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should enter cvv num and click book now button",
+            "match": {
+              "location": "AdactinStepDef.user_Should_enter_cvv_num_and_click_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1258112055,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Should get the order no",
+            "match": {
+              "location": "AdactinStepDef.user_Should_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying adactin site",
+    "description": "",
+    "id": "verifying-adactin-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/adactinsite.feature",
+    "tags": []
+  }
+]
